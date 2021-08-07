@@ -165,7 +165,8 @@ width: 349px;
 height: 178px;
 left: 0px;
 top: 4px;
-
+overflow-x:hidden;
+overflow-y:hidden;
 background: rgba(255, 255, 255, 0.8);
 backdrop-filter: blur(15px);
 /* Note: backdrop-filter has minimal browser support */
@@ -175,6 +176,15 @@ border-radius: 15px;
 
 .sustainableproductcard .cardcontainer{
     width:181;
+}
+.products{
+width:100%;
+overflow: scroll;
+-webkit-overflow-scrolling: touch;
+}
+.sustainableproductcard .row{
+padding-right:20px;
+width: 566px;
 }
 
 .communityfeedcard{
