@@ -1,0 +1,266 @@
+*{padding: 0; margin:0; }
+.nav {
+    text-align: center;
+    color:black Impor !important;
+    text-decoration: none;
+}
+
+html{
+    position: relative;
+    width: 375px;
+    height: 100vh;
+overflow-y: scroll;
+overflow-x:none;
+    
+    background: radial-gradient(114.07% 114.07% at 0% 0%, #A4DAA1 0%, #FFFFFF 100%);
+
+    box-sizing: border-box;
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+Body{
+
+    background: radial-gradient(114.07% 114.07% at 0% 0%, #A4DAA1 0%, #FFFFFF 100%);
+}
+
+.topmenuback{
+    position: absolute;
+    width: 375px;
+    height: 232px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0px 0px 35px 25px;
+
+}
+
+.backandmenu{
+    display:flex;
+    margin-top:43px;
+    margin-left:36px;
+    margin-right:36px;
+    justify-content: space-between;
+}
+
+.backandmenu img{
+    width:26px;
+}
+.userbox{
+    margin-left:60px;
+    margin-right:60px;
+}
+.vertflex{
+    display:flex;
+    flex-direction: column;
+}
+.horflex
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.innerhorflex
+{
+    display:flex;
+    flex-direction: row;
+
+}
+.innerhorflex p{
+    margin-left:6px;
+}
+
+.face{
+    width:63px;
+    height:63px;
+
+}
+.pin{
+width:13px;
+height:18px;
+}
+
+.topimgl, .topimgc{
+    height:52px;
+}
+
+.topimgl{
+    width:38px;
+}
+
+.topimgc{
+    width:41px;
+}
+.topimgr{
+    width:50px;
+    height:42px;
+    margin-bottom:10px;
+    
+}
+
+.iconvertflex{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:65px;
+}
+.icons{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+margin-left:90px;
+margin-right:90px;
+
+}
+
+.BT0{
+    margin-bottom:0px;
+    text-align: center;
+}
+
+p{
+    margin-bottom:0px !important;
+    font-family: 'Karla', sans-serif;
+    line-height: 15px;
+}
+.abox{
+        flex-grow: 1;
+    
+    
+}
+
+.sustainableproducts{
+    margin-top:261px;
+}
+.card-body{
+    text-align: center;
+    padding:0px;
+    margin:0px;
+}
+
+.sustainableproductcard p{
+    font-size:14px;
+}
+
+.sustainableproductcard img{
+    width:118px;
+    height:105px;
+}
+
+.sustainableproductcard{
+
+width: 375px;
+height: 178px;
+left: 0px;
+top: 4px;
+
+background: rgba(255, 255, 255, 0.8);
+backdrop-filter: blur(15px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 15px;
+}
+
+
+
+
+.card-body{
+    margin-top:-20px;
+    background-color:#E5FFEB;
+width: 118px;
+height: 32px;
+left: 143px;
+top: 131px;
+background: #E5FFEB;
+border: 1px solid rgba(112, 177, 109, 0.5);
+box-sizing: border-box;
+border-radius: 0px 0px 15px 15px;
+}
+
+.card{
+    background-color: rgb(255,255,255,0) !important;
+    border:none;
+}
+
+.row{
+    padding-top:20px;
+    padding-bottom:15px;
+}
+
+
+
+.navbar {
+height:112px;
+}
+
+nav p, nav i{
+    color:#005C4F;
+    width:64px;
+}
+nav p{
+    font-size:14pt;
+    font-family: 'Karla', sans-serif;
+    line-height: 30px;
+}
+
+nav i{
+    font-size:25pt;
+    margin-bottom:-15px;
+}
+
+li{
+    margin-left:7px;
+    margin-top:40px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+.scan{
+    margin-top:40px;
+    margin:7px;
+    margin-right:0px;
+    width:77px;
+}
+
+.menusvg{
+position:fixed;
+bottom:0px;
+}
+
+.centerbox{
+    margin:0px;
+    padding:0px;
+    display:flex;
+    width:375px;
+    position:fixed;
+    bottom:0px;
+    align-items:center;
+    justify-content:center;
+    left:0px;
+}
+
+.bi-camera{
+    font-size:30pt;
+}
+
+.item{
+    width:300px;
+}
+.slider_container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-direction:row;
+}
+    .item {
+      flex: 0 0 auto;
+    }
+     .slider_container {
+        -webkit-overflow-scrolling: touch;
+      }
+      .slider_container::-webkit-scrollbar {
+          display: none;
+        }
+      
