@@ -1,16 +1,22 @@
 *{padding: 0; margin:0; }
 .nav {
     text-align: center;
-    color:black Impor !important;
+    color:black !important;
     text-decoration: none;
+}
+
+h3{
+    font-family: 'Belleza', sans-serif;
+    color:#005C4F;
+    font-size:26px;
 }
 
 html{
     position: relative;
     width: 375px;
     height: 100vh;
-overflow-y: scroll;
-overflow-x:none;
+    overflow-y: scroll;
+    overflow-x:none;
     
     background: radial-gradient(114.07% 114.07% at 0% 0%, #A4DAA1 0%, #FFFFFF 100%);
 
@@ -131,8 +137,13 @@ p{
 }
 
 .sustainableproducts{
-    margin-top:261px;
+    padding-top:261px;
 }
+
+.sustainableproductcard .container-fluid{
+    width:110%;
+    }
+
 .card-body{
     text-align: center;
     padding:0px;
@@ -150,7 +161,7 @@ p{
 
 .sustainableproductcard{
 
-width: 375px;
+width: 349px;
 height: 178px;
 left: 0px;
 top: 4px;
@@ -162,10 +173,55 @@ backdrop-filter: blur(15px);
 border-radius: 15px;
 }
 
+.sustainableproductcard .cardcontainer{
+    width:181;
+}
 
+.communityfeedcard{
 
+    width: 349px;
+    height: 238px;
+    left: 0px;
+    top: 4px;
+    
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 15px;
+    }
+    .knowyoursymbolscard{
 
-.card-body{
+        width: 349px;
+        height: 238px;
+        left: 0px;
+        top: 4px;
+        
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(15px);
+        /* Note: backdrop-filter has minimal browser support */
+        
+        border-radius: 15px;
+        }
+
+.sustainableproductcard h3{
+    padding-top:10px;
+    padding-bottom:5px;
+}
+
+.communityfeedcard h3{
+    padding-top:10px;
+    padding-bottom:5px;
+}
+.knowyoursymbolscard h3{
+    padding-top:10px;
+    padding-bottom:5px;
+}
+.communityfeedcard p{
+    font-size:16px;
+}
+
+.sustainableproductcard .card-body{
     margin-top:-20px;
     background-color:#E5FFEB;
 width: 118px;
@@ -178,16 +234,45 @@ box-sizing: border-box;
 border-radius: 0px 0px 15px 15px;
 }
 
+.communityfeedcard .card-body{
+    margin-top:-29px;
+    background-color:#E5FFEB;
+width: 163px;
+height: 32px;
+left: 143px;
+top: 131px;
+background: #E5FFEB;
+border: 1px solid rgba(112, 177, 109, 0.5);
+box-sizing: border-box;
+border-radius: 0px 0px 15px 15px;
+}
+
+.communityfeedcard img{
+width: 163px;
+}
+
+
 .card{
     background-color: rgb(255,255,255,0) !important;
     border:none;
 }
 
 .row{
-    padding-top:20px;
-    padding-bottom:15px;
+
+
+}
+.bottombuffer{
+    height:125px;
 }
 
+.communityfeedcard{
+    margin-top:40px;
+    padding-bottom:15px;
+}
+.knowyoursymbolscard{
+    margin-top:40px;
+    padding-bottom:15px;
+}
 
 
 .navbar {
@@ -199,7 +284,7 @@ nav p, nav i{
     width:64px;
 }
 nav p{
-    font-size:14pt;
+    font-size:14px;
     font-family: 'Karla', sans-serif;
     line-height: 30px;
 }
@@ -244,23 +329,29 @@ bottom:0px;
 .bi-camera{
     font-size:30pt;
 }
+.knowyoursymbolscard{
+    height: 187px;
+    text-align:center;
+}
 
-.item{
-    width:300px;
+.knowyoursymbolscard h3{
+
+    text-align:left;
 }
-.slider_container {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    flex-direction:row;
-}
-    .item {
-      flex: 0 0 auto;
+
+.knowyoursymbolscard p{
+    font-size:64px;
+    
     }
-     .slider_container {
-        -webkit-overflow-scrolling: touch;
-      }
-      .slider_container::-webkit-scrollbar {
-          display: none;
-        }
-      
+
+.knowyoursymbolscard .topcard{
+
+}
+
+.knowyoursymbolscard .bottomcard{
+
+}
+
+section{
+    padding-left:13px;
+}
