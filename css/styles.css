@@ -147,7 +147,7 @@ p{
 
 .sustainableproductcard .container-fluid{
 
-    width:103%;
+    width:100%;
     padding-left:0px !important;
     padding-right:0px !important;
     }
@@ -254,7 +254,7 @@ width:375px;
 }
 
 .upcycledproductcard .container-fluid{
-    width:103%;
+    width:100%;
     padding-left:0px !important;
     padding-right:0px !important;
     }
@@ -483,6 +483,7 @@ li{
 .menusvg{
     position:fixed;
     bottom:0px;
+    width:375px;
 }
 
 .centerbox{
