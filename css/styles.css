@@ -180,7 +180,7 @@ p{
     width:181;
 }
 .sustainableproductcard .products{
-       width:95%;
+       width:100%;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
 }
@@ -282,7 +282,7 @@ width:375px;
         width:181;
     }
 .upcycledproductcard .products{
-        width:95%;
+        width:100%;
         overflow: scroll;
         -webkit-overflow-scrolling: touch;
     }
