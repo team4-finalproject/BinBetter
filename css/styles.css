@@ -525,3 +525,7 @@ li{
 section{
 
 }
+
+.home i, .home p{
+    color:#000000 !important;
+}
