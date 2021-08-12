@@ -7,8 +7,16 @@
 
 h3{
     font-family: 'Belleza', sans-serif;
-    color:#005C4F;
+    color:#000000;
     font-size:26px;
+}
+.logo{
+    width:98px;
+    height:54px;
+}
+.hamburger{
+    height:16px;
+    width:17.64px;
 }
 
 html{
@@ -16,9 +24,8 @@ html{
     width: 375px;
     height: 100vh;
     overflow-y: scroll;
-    overflow-x:none;
-    
-    background: radial-gradient(114.07% 114.07% at 0% 0%, #A4DAA1 0%, #FFFFFF 100%);
+    overflow-x: none;
+
 
     box-sizing: border-box;
     backdrop-filter: blur(30px);
@@ -27,35 +34,37 @@ html{
 
 Body{
 
-    background: radial-gradient(114.07% 114.07% at 0% 0%, #A4DAA1 0%, #FFFFFF 100%);
 }
 
 .topmenuback{
     position: absolute;
-    width: 375px;
-    height: 232px;
-    left: 0px;
-    top: 0px;
+    width:305;
+    height: 131px;
+    left: 35px;
+    right:35px;
+    top: 98px;
     
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 0px 0px 35px 25px;
-
+    background: rgba(112, 177, 109, .75);
+    border-radius: 12.34px 12.34px 12.34px 12.34px;
+    z-index:-1 !important;
 }
 
 .backandmenu{
     display:flex;
-    margin-top:43px;
-    margin-left:36px;
-    margin-right:36px;
+    margin-top:28px;
+    margin-left:9px;
+    margin-right:24.36px;
     justify-content: space-between;
+    align-items: center;
 }
 
-.backandmenu img{
-    width:26px;
-}
+
 .userbox{
-    margin-left:60px;
-    margin-right:60px;
+    margin-left:34px;
+    margin-right:34px;
+    align-items:center;
+margin-top:-46px;
+z-index:2;
 }
 .vertflex{
     display:flex;
@@ -66,44 +75,38 @@ Body{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 .innerhorflex
 {
     display:flex;
     flex-direction: row;
+    margin-top:-5px;
+    justify-content: center;
 
 }
 .innerhorflex p{
     margin-left:6px;
+    color:#000000;
 }
 
 .face{
-    width:63px;
-    height:63px;
+    width:113px;
+    height:113px;
 
 }
 .pin{
 width:13px;
 height:18px;
+color:#000000;
 }
 
-.topimgl, .topimgc{
-    height:52px;
+.topimgl, .topimgc, .topimgr{
+    height:92px;
+    width:73px;
 }
 
-.topimgl{
-    width:38px;
-}
 
-.topimgc{
-    width:41px;
-}
-.topimgr{
-    width:50px;
-    height:42px;
-    margin-bottom:10px;
-    
-}
 
 .iconvertflex{
     display:flex;
@@ -114,15 +117,17 @@ height:18px;
 .icons{
     display:flex;
     flex-direction: row;
-    justify-content:space-around;
-margin-left:90px;
-margin-right:90px;
+    justify-content:space-between;
+    margin-left:64px;
+    margin-right:64px;
 
 }
 
 .BT0{
     margin-bottom:0px;
     text-align: center;
+    width:73px;
+    height:92px;
 }
 
 p{
@@ -137,12 +142,17 @@ p{
 }
 
 .sustainableproducts{
-    padding-top:261px;
+    padding-top:12px;
 }
 
 .sustainableproductcard .container-fluid{
-    width:110%;
+
+    width:103%;
+    padding-left:0px !important;
+    padding-right:0px !important;
     }
+
+
 
 .card-body{
     text-align: center;
@@ -154,38 +164,177 @@ p{
     font-size:14px;
 }
 
-.sustainableproductcard img{
-    width:118px;
-    height:105px;
-}
+
 
 .sustainableproductcard{
-
-width: 349px;
-height: 178px;
-left: 0px;
-top: 4px;
-overflow-x:hidden;
-overflow-y:hidden;
-background: rgba(255, 255, 255, 0.8);
-backdrop-filter: blur(15px);
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 100%;
+    height: 255px;
+    left: 0px;
+    top: 4px;
+    overflow-x:hidden;
+    overflow-y:hidden;  
 }
 
 .sustainableproductcard .cardcontainer{
     width:181;
 }
-.products{
-width:100%;
-overflow: scroll;
--webkit-overflow-scrolling: touch;
+.sustainableproductcard .products{
+    width:100%;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 .sustainableproductcard .row{
-padding-right:20px;
-width: 566px;
+    padding-right:20px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left:0px;
+    margin-right:0px;
 }
+
+.sustainabletitle{
+
+    width:375px;
+    justify-content: space-between;
+
+}
+.sustainabletitle h3, .sustainabletitle p{
+    color:#005C4F;
+}
+.sustainabletitle h3{
+    margin-left:18px;
+}
+.sustainabletitle p{
+    margin-right:18px;
+}
+.sustainablecard{
+    width:120px;
+    height:182px;
+    margin-left:16px;
+    padding-right:0;
+    padding-left:0;
+}
+.sustainableimage{
+    width:120px;
+    height:146px;
+}
+.sustainablecard .body{
+    height:37px;
+    background: #FFFFFF;
+
+    
+}
+
+.sustainablecard .card{
+    width:100%;
+    
+    border-radius: 5px 5px 5px 5px; 
+}
+.sustainablecard .card-body{
+    border-radius: 0px 0px 5px 5px; 
+}
+
+
+
+
+.upcycletitle{
+margin-top:10px;
+margin-bottom:12px;
+width:375px;
+}
+.upcycletitle h3, .upcycletitle p{
+    color:#005C4F;
+}
+
+.upcycledproducts{
+    margin-top:49px;
+    background-color: #E2EFE2;
+}
+
+.upcycledproductcard .container-fluid{
+    width:103%;
+    padding-left:0px !important;
+    padding-right:0px !important;
+    }
+
+.upcycledproductcard p{
+        font-size:14px;
+    }
+    
+.upcycledproductcard img{
+    width:269px;
+    height:193px;
+    }
+    
+.upcycledproductcard{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        width: 100%;
+        height: 332px;
+        left: 0px;
+        top: 4px;
+        overflow-x:hidden;
+        overflow-y:hidden;   
+    }
+    
+.upcycledproductcard .cardcontainer{
+        width:181;
+    }
+.upcycledproductcard .products{
+        width:100%;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+.upcycledproductcard .row{
+        padding-right:20px;
+        width: 100%;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-left:0px;
+        margin-right:0px;
+    }
+
+.upcyclecard{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width:269px;
+    height:230px;
+    margin-left:16px;
+    padding-right:0;
+    padding-left:0;
+}
+.upcycleimage{
+    width:269px;
+    height:193px;
+}
+.upcyclecard .body{
+    height:37px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+
+.upcyclecard .card{
+    width:100%;
+    
+    border-radius: 5px 5px 5px 5px; 
+}
+
+.bi-bookmark-plus{
+    padding-left:11px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .communityfeedcard{
 
@@ -199,20 +348,20 @@ width: 566px;
     /* Note: backdrop-filter has minimal browser support */
     
     border-radius: 15px;
-    }
-    .knowyoursymbolscard{
+}
+.knowyoursymbolscard{
 
-        width: 349px;
-        height: 238px;
-        left: 0px;
-        top: 4px;
-        
-        background: rgba(255, 255, 255, 0.8);
-        backdrop-filter: blur(15px);
-        /* Note: backdrop-filter has minimal browser support */
-        
-        border-radius: 15px;
-        }
+    width: 349px;
+    height: 238px;
+    left: 0px;
+    top: 4px;
+    
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(15px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 15px;
+}
 
 .sustainableproductcard h3{
     padding-top:10px;
@@ -232,33 +381,29 @@ width: 566px;
 }
 
 .sustainableproductcard .card-body{
-    margin-top:-20px;
-    background-color:#E5FFEB;
-width: 118px;
-height: 32px;
-left: 143px;
-top: 131px;
-background: #E5FFEB;
-border: 1px solid rgba(112, 177, 109, 0.5);
-box-sizing: border-box;
-border-radius: 0px 0px 15px 15px;
+
+    width: 120px;
+    height: 35px;
+    background: #FFFFFF;
+    color:000000;
 }
 
 .communityfeedcard .card-body{
     margin-top:-29px;
     background-color:#E5FFEB;
-width: 163px;
-height: 32px;
-left: 143px;
-top: 131px;
-background: #E5FFEB;
-border: 1px solid rgba(112, 177, 109, 0.5);
-box-sizing: border-box;
-border-radius: 0px 0px 15px 15px;
+    width: 163px;
+    height: 32px;
+    left: 143px;
+    top: 131px;
+    background: #E5FFEB;
+    border: 1px solid rgba(112, 177, 109, 0.5);
+    color: #000000;
+    box-sizing: border-box;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .communityfeedcard img{
-width: 163px;
+    width: 163px;
 }
 
 
@@ -286,23 +431,39 @@ width: 163px;
 
 
 .navbar {
-height:112px;
+    height:112px;
 }
+.nav-text{
+    position:fixed;
+    bottom:5px;
+}
+
 
 nav p, nav i{
     color:#005C4F;
     width:64px;
 }
 nav p{
-    font-size:14px;
+    font-size:16px;
     font-family: 'Karla', sans-serif;
     line-height: 30px;
 }
 
-nav i{
-    font-size:25pt;
-    margin-bottom:-15px;
+.scan p{
+    font-size:16px;
+    font-family: 'Karla', sans-serif;
+    line-height: 30px;
+    bottom:15px;
 }
+
+nav i{
+    font-size:22pt;
+    margin-bottom:15px;
+}
+.bi-trophy{
+    font-size:20pt;
+}
+
 
 li{
     margin-left:7px;
@@ -313,15 +474,15 @@ li{
     
 }
 .scan{
-    margin-top:40px;
+
     margin:7px;
     margin-right:0px;
     width:77px;
 }
 
 .menusvg{
-position:fixed;
-bottom:0px;
+    position:fixed;
+    bottom:0px;
 }
 
 .centerbox{
@@ -330,14 +491,18 @@ bottom:0px;
     display:flex;
     width:375px;
     position:fixed;
-    bottom:0px;
+    bottom:6px;
     align-items:center;
     justify-content:center;
     left:0px;
 }
+.centerbox img{
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.33);
+}
 
 .bi-camera{
-    font-size:30pt;
+    font-size:38pt;
+    margin-bottom:25px;
 }
 .knowyoursymbolscard{
     height: 187px;
@@ -354,14 +519,8 @@ bottom:0px;
     
     }
 
-.knowyoursymbolscard .topcard{
 
-}
-
-.knowyoursymbolscard .bottomcard{
-
-}
 
 section{
-    padding-left:13px;
+
 }
