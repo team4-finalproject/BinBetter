@@ -145,6 +145,10 @@ p{
     padding-top:12px;
 }
 
+.recycling{
+    padding-top:12px;
+}
+
 .sustainableproductcard .container-fluid{
 
     width:100%;
@@ -325,12 +329,24 @@ width:375px;
 .bi-bookmark-plus{
     padding-left:11px;
 }
+.bi-bookmark-plus-fill{
+    padding-left:11px;
+}
 
+.active{
+    display:block;
+}
+.inactive{
+    display:none;
+}
 
+.bi-hand-thumbs-up, .bi-hand-thumbs-up-fill, .bi-bookmark-plus, .bi-bookmark-plus-fill{
+    color:#005C4F;
+}
 
-
-
-
+.num59, .num58, .num15, .num16, .num47, .num48{
+    color:#005C4F;
+}
 
 
 
